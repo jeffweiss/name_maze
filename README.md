@@ -1,5 +1,9 @@
 # Name Mazes
 
+Extrapolated from and inspired by [Jamis Buck](https://github.com/jamis)'s book [Mazes for Programmers](https://pragprog.com/book/jbmaze/mazes-for-programmers).
+
+## Step by step
+
 Add the names for which you wish to create mazes to `names.yaml`.
 
 In this example, `names.yaml` has the following contents:

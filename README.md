@@ -67,3 +67,6 @@ Created mazes/Jeff/05.png
 Created mazes/Jeff/06.png
 Created mazes/Jeff/07.png
 ```
+
+The resulting `mazes/Jeff/00.png` looks like
+![00](https://cloud.githubusercontent.com/assets/818053/7755055/47920dbe-ffa6-11e4-92d0-63403d3053d0.png)

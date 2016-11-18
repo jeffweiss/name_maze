@@ -28,7 +28,7 @@ end
 
 def create_mask(name)
   return if has_mask?(name)
-  text_mask = StringToBitmask.to_mask(name.downcase)
+  text_mask = StringToBitmask.to_mask(name.downcase, size: 25)
   File.write(mask_filename(name), text_mask)
 end
 
@@ -47,7 +47,7 @@ end
 names.each do |name|
   ensure_directories(name)
   if has_mask?(name)
-    generate_mazes(name, count: 8)
+    generate_mazes(name, count: 16)
   else
     create_mask(name)
     puts " !! Mask created for #{name} as #{mask_filename(name)}. Please add connections between letters!"
